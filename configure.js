@@ -59,8 +59,8 @@ async function main() {
 }
 
 async function inputTokens() {
-  var tokens = ['56:3a:d6:95:c6:14:80:ae:86:56:87:63:ec:a2:2b:b5
-']; //Add any tokens(as strings separated by commas) you want to prompt for in the configuration process here
+  var tokens = ['BOT_USERNAME'];
+  var tokens = ['56:3a:d6:95:c6:14:80:ae:86:56:87:63:ec:a2:2b:b5']; //Add any tokens(as strings separated by commas) you want to prompt for in the configuration process here
   var config = [];
   var i = 0;
   var inputResult = await readFileInput();
