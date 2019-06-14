@@ -59,8 +59,7 @@ async function main() {
 }
 
 async function inputTokens() {
-  var tokens = ['ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDE19 / StRgD0GILh65CUEgqwfztESXVcoubS77nySkVVejewjw26Awoc8gHiUdWQbaXspk / EMN1TdGM3pMPwGsJKhj8AscYgZH + 7lSBuOsLbRqBSNb4K5kwvZb / KczjPVw9bJWaulAcIcSzSWEm9yj8v0mVjSSWZm3rSJk8EsVLfQ8i8mOhE5OEgS / h + + xw91Ec4GeOi5miQb8DEMmJPi Jq + qOm8jg26NJgAdFehE1ycx + UohoOQsfToiJHEI + Z55 + 2P9MEV2iUJFccLwgFQaUQ5v1g / ZCN584wCmXs3gZdtuex / hDvKqGbV5K + CEVKS58Y8I689gOrdKOAlzesAgst
-']; //Add any tokens(as strings separated by commas) you want to prompt for in the configuration process here
+  var tokens = ['ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCcp6Vg0eT7JQaF62/JVtoOHvirma640MnZXef/ZdGYF6/wG6kVYu0AjWLGElHFqXGNMFmrR0enLylxuzwCa3VgSgd2QzwYYU2xK22JtYidP1aPG7mLRCjyn5IQ9qE9P2TEkS6eAlRsfo2sBbdixF+LK+po4Mqwf3hXN6zUUR7qUws1gaZ+q8rQDqM3Ix0RE7UU6I6qrbEPu+kPXkKSrdNtXhbyh+osnMBym4aN4YwadPih9zrX/IoYFmyo2Q6Fuxk4xgX2S1irnN5mDowD+tf5AC1GHtr5ajeJ5PvSDPGpy/9vaQHCFAyTDZUDm90N3hmGiq/koNcvKNaD2mn/Ckc5']; //Add any tokens(as strings separated by commas) you want to prompt for in the configuration process here
   var config = [];
   var i = 0;
   var inputResult = await readFileInput();
