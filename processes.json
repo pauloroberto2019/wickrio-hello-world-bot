@@ -1,5 +1,4 @@
-{
-  "apps": [{
+"apps": [{
     "name": "WickrIO-Hello-World-Bot",
     "args": [],
     "script": "node hello_world_bot.js",
@@ -17,4 +16,3 @@
     "out_file": "log.output",
     "error_file": "err.output"
   }]
-}
