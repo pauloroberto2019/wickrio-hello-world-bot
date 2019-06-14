@@ -59,7 +59,8 @@ async function main() {
 }
 
 async function inputTokens() {
-  var tokens = ['ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCcp6Vg0eT7JQaF62/JVtoOHvirma640MnZXef/ZdGYF6/wG6kVYu0AjWLGElHFqXGNMFmrR0enLylxuzwCa3VgSgd2QzwYYU2xK22JtYidP1aPG7mLRCjyn5IQ9qE9P2TEkS6eAlRsfo2sBbdixF+LK+po4Mqwf3hXN6zUUR7qUws1gaZ+q8rQDqM3Ix0RE7UU6I6qrbEPu+kPXkKSrdNtXhbyh+osnMBym4aN4YwadPih9zrX/IoYFmyo2Q6Fuxk4xgX2S1irnN5mDowD+tf5AC1GHtr5ajeJ5PvSDPGpy/9vaQHCFAyTDZUDm90N3hmGiq/koNcvKNaD2mn/Ckc5']; //Add any tokens(as strings separated by commas) you want to prompt for in the configuration process here
+  var tokens = ['56:3a:d6:95:c6:14:80:ae:86:56:87:63:ec:a2:2b:b5
+']; //Add any tokens(as strings separated by commas) you want to prompt for in the configuration process here
   var config = [];
   var i = 0;
   var inputResult = await readFileInput();
