@@ -59,7 +59,8 @@ async function main() {
 }
 
 async function inputTokens() {
-  var tokens = ['DATABASE_ENCRYPTION_KEY']; //Add any tokens(as strings separated by commas) you want to prompt for in the configuration process here
+  var tokens = ['ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDE19 / StRgD0GILh65CUEgqwfztESXVcoubS77nySkVVejewjw26Awoc8gHiUdWQbaXspk / EMN1TdGM3pMPwGsJKhj8AscYgZH + 7lSBuOsLbRqBSNb4K5kwvZb / KczjPVw9bJWaulAcIcSzSWEm9yj8v0mVjSSWZm3rSJk8EsVLfQ8i8mOhE5OEgS / h + + xw91Ec4GeOi5miQb8DEMmJPi Jq + qOm8jg26NJgAdFehE1ycx + UohoOQsfToiJHEI + Z55 + 2P9MEV2iUJFccLwgFQaUQ5v1g / ZCN584wCmXs3gZdtuex / hDvKqGbV5K + CEVKS58Y8I689gOrdKOAlzesAgst
+']; //Add any tokens(as strings separated by commas) you want to prompt for in the configuration process here
   var config = [];
   var i = 0;
   var inputResult = await readFileInput();
