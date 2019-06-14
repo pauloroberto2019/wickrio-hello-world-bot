@@ -47,7 +47,6 @@ return new Promise(async (resolve, reject) => {
   try {
     var status;
     if (process.argv[2] === undefined) {
-      bot_username = tokens.BOT_USERNAME.value;
       status = await bot.start(bot_username)
       resolve(status);
     } else {
@@ -56,6 +55,7 @@ return new Promise(async (resolve, reject) => {
     }
 
   } catch (err) {
+    if (err || options.exit) {
     return console.log(err);
   }
 }).then(async result => {
